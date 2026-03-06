@@ -1,6 +1,6 @@
 import { jsxs, jsx } from "react/jsx-runtime";
 import * as React from "react";
-import { R, T, I, y as yl } from "./index-rRXlnXvI.mjs";
+import { R, T, I, y as yl } from "./index-BuWa3cZT.mjs";
 import { Layouts, Page } from "@strapi/strapi/admin";
 /**
  * @remix-run/router v1.23.2
@@ -818,18 +818,18 @@ const HOW_IT_WORKS = [
 const SUPPORT_LINKS = [
   {
     label: "Report an issue",
-    href: "https://github.com/starstack/strapi-plugin-content-optimizer/issues",
+    href: "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer/issues",
     desc: "GitHub Issues"
   },
   {
     label: "View documentation",
-    href: "https://github.com/starstack/strapi-plugin-content-optimizer#readme",
+    href: "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer#readme",
     desc: "README on GitHub"
   },
   {
     label: "Starstack",
-    href: "https://starstacktech.com",
-    desc: "starstacktech.com"
+    href: "https://www.starstacktech.com/strapi-services/",
+    desc: "Starstack"
   }
 ];
 const SectionHeader = ({ label }) => /* @__PURE__ */ jsx(R, { marginBottom: 4, children: /* @__PURE__ */ jsx(

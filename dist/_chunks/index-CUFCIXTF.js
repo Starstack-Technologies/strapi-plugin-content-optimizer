@@ -2,7 +2,7 @@
 Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const jsxRuntime = require("react/jsx-runtime");
 const React = require("react");
-const index = require("./index-DzD0tsSW.js");
+const index = require("./index-LtxfDMcX.js");
 const admin = require("@strapi/strapi/admin");
 function _interopNamespace(e) {
   if (e && e.__esModule) return e;
@@ -838,18 +838,18 @@ const HOW_IT_WORKS = [
 const SUPPORT_LINKS = [
   {
     label: "Report an issue",
-    href: "https://github.com/starstack/strapi-plugin-content-optimizer/issues",
+    href: "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer/issues",
     desc: "GitHub Issues"
   },
   {
     label: "View documentation",
-    href: "https://github.com/starstack/strapi-plugin-content-optimizer#readme",
+    href: "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer#readme",
     desc: "README on GitHub"
   },
   {
     label: "Starstack",
-    href: "https://starstacktech.com",
-    desc: "starstacktech.com"
+    href: "https://www.starstacktech.com/strapi-services/",
+    desc: "Starstack"
   }
 ];
 const SectionHeader = ({ label }) => /* @__PURE__ */ jsxRuntime.jsx(index.R, { marginBottom: 4, children: /* @__PURE__ */ jsxRuntime.jsx(

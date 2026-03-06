@@ -52,7 +52,7 @@
     "strapi-admin.js",
     "strapi-server.js",
     "dist/",
-    "logo.png",
+    "logo.jpg",
     "README.md",
     "LICENSE"
   ],
@@ -79,6 +79,6 @@
     "name": "content-optimizer",
     "displayName": "Content Optimizer",
     "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content validation, and readability checks - live as you type.",
-    "pluginLogo": "./logo.png"
+    "pluginLogo": "./logo.jpg"
   }
 }
