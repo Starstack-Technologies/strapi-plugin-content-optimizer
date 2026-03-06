@@ -1,6 +1,6 @@
 {
   "name": "@starstack/strapi-plugin-content-optimizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content validation, and readability checks - live as you type.",
   "keywords": [
     "strapi",
