@@ -1,0 +1,82 @@
+{
+  "name": "@starstack/strapi-plugin-content-optimizer",
+  "version": "1.0.0",
+  "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content scoring, and readability checks - live as you type.",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "seo",
+    "content",
+    "readability",
+    "optimization",
+    "content-optimizer",
+    "word-count",
+    "analytics"
+  ],
+  "homepage": "https://github.com/starstack/strapi-plugin-content-optimizer#readme",
+  "bugs": {
+    "url": "https://github.com/starstack/strapi-plugin-content-optimizer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starstack/strapi-plugin-content-optimizer.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Starstack",
+    "url": "https://starstacktech.com"
+  },
+  "maintainers": [
+    {
+      "name": "Starstack",
+      "url": "https://starstacktech.com"
+    }
+  ],
+  "exports": {
+    "./strapi-admin": {
+      "source": "./admin/src/index.js",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
+    },
+    "./strapi-server": {
+      "source": "./server/index.js",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./strapi-server.js",
+  "files": [
+    "strapi-admin.js",
+    "strapi-server.js",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "strapi-plugin build",
+    "verify": "strapi-plugin verify",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link"
+  },
+  "devDependencies": {
+    "@strapi/sdk-plugin": "^5.4.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "content-optimizer",
+    "displayName": "Content Optimizer",
+    "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content scoring, and readability checks - live as you type."
+  }
+}
