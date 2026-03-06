@@ -1,13 +1,12 @@
 # Content Optimizer - Strapi Plugin
 
-Real-time SEO and readability analysis for **Strapi v5**. Inline field stats, a 130-point content score, and readability checks, all updating live as you type, directly inside the Content Manager.
+Real-time SEO and readability analysis for **Strapi v5**. Inline field stats, content validation, and readability checks - all updating live as you type, directly inside the Content Manager.
 
 ---
 
 ## Features
 
 - **Inline field feedback** - character count, word count, and a status indicator injected below the title and description fields
-- **SEO scoring** - 130-point weighted score across title, description, content length, sentence length, paragraph length, and paragraph density
 - **Pixel-accurate truncation warnings** - uses the Canvas API to measure rendered width the same way Google does, so truncation warnings are reliable rather than character-count approximations
 - **Readability analysis** - average sentence length, average paragraph length, paragraph density, and longest-sentence callouts
 - **Content validation** - hard errors for missing or undersized content, warnings for long sentences
@@ -87,50 +86,6 @@ A **Content Statistics** panel in the right sidebar that switches context based 
 
 - **Title / Description active** → shows character count, word count, reading time
 - **Content editor active** → shows word count (colour-coded), sentence count, paragraph count, and reading time.
-
----
-
-## Scoring Reference
-
-Total possible: **130 points**
-
-| Category          | Max Points | Optimal Condition               |
-| ----------------- | ---------- | ------------------------------- |
-| Title             | 30         | 50–60 characters, ≤580px wide   |
-| Description       | 30         | 150–160 characters, ≤920px wide |
-| Content Length    | 40         | 600+ words                      |
-| Sentence Length   | 10         | 15–20 words average             |
-| Paragraph Length  | 10         | 2–5 sentences per paragraph     |
-| Paragraph Density | 10         | 40–120 words per paragraph      |
-
-### Title status levels
-
-| Character range | Status    |
-| --------------- | --------- |
-| < 30            | Too Short |
-| 30–49           | Short     |
-| 50–60           | Optimal   |
-| 61–65           | Long      |
-| > 65            | Too Long  |
-
-### Description status levels
-
-| Character range | Status    |
-| --------------- | --------- |
-| < 120           | Too Short |
-| 120–149         | Short     |
-| 150–160         | Optimal   |
-| 161–165         | Long      |
-| > 165           | Too Long  |
-
-### Content validation
-
-| Condition           | Severity   | Message                                                   |
-| ------------------- | ---------- | --------------------------------------------------------- |
-| Empty field         | 🔴 Error   | Content is required.                                      |
-| < 300 words         | 🔴 Error   | Content must be at least 300 words.                       |
-| > 5000 words        | 🔴 Error   | Content must not exceed 5000 words.                       |
-| Sentence > 25 words | ⚠️ Warning | X sentence(s) exceed 25 words, consider breaking them up. |
 
 ---
 

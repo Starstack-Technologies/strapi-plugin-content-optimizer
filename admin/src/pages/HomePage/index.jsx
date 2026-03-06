@@ -62,18 +62,18 @@ const HOW_IT_WORKS = [
 const SUPPORT_LINKS = [
   {
     label: "Report an issue",
-    href: "https://github.com/starstack/strapi-plugin-content-optimizer/issues",
+    href: "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer/issues",
     desc: "GitHub Issues",
   },
   {
     label: "View documentation",
-    href: "https://github.com/starstack/strapi-plugin-content-optimizer#readme",
+    href: "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer#readme",
     desc: "README on GitHub",
   },
   {
     label: "Starstack",
-    href: "https://starstacktech.com",
-    desc: "starstacktech.com",
+    href: "https://www.starstacktech.com/strapi-services/",
+    desc: "Starstack",
   },
 ];
 

@@ -1,7 +1,7 @@
 {
   "name": "@starstack/strapi-plugin-content-optimizer",
   "version": "1.0.0",
-  "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content scoring, and readability checks - live as you type.",
+  "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content validation, and readability checks - live as you type.",
   "keywords": [
     "strapi",
     "strapi-plugin",
@@ -13,13 +13,13 @@
     "word-count",
     "analytics"
   ],
-  "homepage": "https://github.com/starstack/strapi-plugin-content-optimizer#readme",
+  "homepage": "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer#readme",
   "bugs": {
-    "url": "https://github.com/starstack/strapi-plugin-content-optimizer/issues"
+    "url": "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/starstack/strapi-plugin-content-optimizer.git"
+    "url": "https://github.com/Starstack-Technologies/strapi-plugin-content-optimizer.git"
   },
   "license": "MIT",
   "author": {
@@ -52,6 +52,7 @@
     "strapi-admin.js",
     "strapi-server.js",
     "dist/",
+    "logo.png",
     "README.md",
     "LICENSE"
   ],
@@ -77,6 +78,7 @@
     "kind": "plugin",
     "name": "content-optimizer",
     "displayName": "Content Optimizer",
-    "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content scoring, and readability checks - live as you type."
+    "description": "Real-time SEO and readability analysis for Strapi v5. Inline field stats, content validation, and readability checks - live as you type.",
+    "pluginLogo": "./logo.png"
   }
 }
